@@ -89,8 +89,15 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-	</dependencies>
 
+	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>deploymentRepo</id>
+			<name>Nexus Repository Release</name>
+			<url>http://172.17.0.1:8081/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
