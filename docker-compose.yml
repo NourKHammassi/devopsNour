@@ -14,7 +14,7 @@ services:
 
 
   gestion-station-ski:
-    image: khamessinour/gestion-station-ski:1.0
+    image: khamessinour/gestionski:1.0
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/gestion-station-ski?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: "root"
